@@ -21,3 +21,12 @@ print("mario " * 3)
 
 # boolean operators >, <, >=, <=, !=, not, and, or 
 
+from functions_and_classes.funtion_basics import decorator
+
+
+@decorator
+def greet():
+    print("Hello Python!")
+    
+
+greet()
